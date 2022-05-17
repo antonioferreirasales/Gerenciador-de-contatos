@@ -39,3 +39,7 @@ def menu(lista):
     print(linha())
     opcao = lerMensagem('Digite sua opção: ')
     return opcao
+
+#criar um arquivo txt
+def banco():
+    dados = open('banco_de_dados.txt', 'w+')

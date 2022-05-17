@@ -1,5 +1,6 @@
 from funcoes import*
 
+banco()
 while True:
     resposta = menu(['Cadastrar um cliente', 'Pesquisar um cliente', 'Alterar um cliente', 'Sair'])
     if resposta == 1:
