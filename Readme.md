@@ -1,0 +1,1 @@
+Um mini programa com menu que gerencia contatos de clientes (nome e telefone), cadastrando, pesquisando e deletando atributos. 
