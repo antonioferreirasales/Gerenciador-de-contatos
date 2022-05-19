@@ -1,3 +1,5 @@
+clientes = {}
+
 #função para deixar as mensagens vermelhas
 def deixaVermelho(msg):
     print('\033[31m'+msg+'\033[m')
@@ -40,6 +42,19 @@ def menu(lista):
     opcao = lerMensagem('Digite sua opção: ')
     return opcao
 
-#criar um arquivo txt
-def banco():
-    dados = open('banco_de_dados.txt', 'w+')
+#cadastrar um cliente com nome e telefone
+def cadastraCliente(nome, telefone):
+    clientes[nome] = telefone
+    print('Cliente cadastrado com sucesso!')
+
+
+#procurar um cliente pelo nome, mostrando o telefone
+def procuraCliente(nome):
+    telefoneCliente = clientes[nome]
+    print(f'Cliente: {nome}, Telefone: {telefoneCliente}')
+
+
+#altera o telefone do cliente
+def alteraCliente(nome, telefone):
+    clientes[nome] = telefone
+    print('Cliente alterado com sucesso!')

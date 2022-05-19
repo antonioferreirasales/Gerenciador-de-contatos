@@ -1,2 +1,6 @@
 Menu de cadastro.code-workspace
 __pycache__
+teste.py
+build
+dist
+main.spec
