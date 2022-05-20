@@ -58,3 +58,7 @@ def procuraCliente(nome):
 def alteraCliente(nome, telefone):
     clientes[nome] = telefone
     print('Cliente alterado com sucesso!')
+
+#deleta um cliente
+def deletaCliente(nome):
+    clientes.pop(nome)
