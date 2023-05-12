@@ -1,10 +1,9 @@
 # Credencias do banco de dados
-# Substitua por suas credências, removendo as descrições e os colchetes que as entornam.
-ip_banco = "[IP DO BANCO DE DADOS]"
-porta_banco = "[PORTA DO BANCO DE DADOS]"
-nome_banco = "[NOME DO BANCO DE DADOS]"
-usuario_banco = "[USUÁRIO DO BANCO DE DADOS]"
-senha_banco = "[SENHA DO USUÁRIO]"
+ip_banco = "192.168.1.172"
+porta_banco = "5432"
+nome_banco = "gerenciador_contatos"
+usuario_banco = "postgres"
+senha_banco = "antonios1"
 
 
 
