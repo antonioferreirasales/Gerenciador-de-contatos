@@ -1,6 +1,8 @@
 Menu de cadastro.code-workspace
 __pycache__
 teste.py
+outro_teste.py
 build
 dist
 main.spec
+credencias.py
